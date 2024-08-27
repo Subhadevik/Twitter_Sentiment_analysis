@@ -1,3 +1,4 @@
 flask
 joblib
 nltk
+scikit-learn
