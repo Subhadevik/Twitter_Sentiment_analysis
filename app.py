@@ -49,5 +49,5 @@ def analyze():
     prediction = loaded_model.predict(user_vector)
     return jsonify({'sentiment': str(prediction[0])})
 
-if __name__ == "__main__":
-    app.run(debug=True)
+#if __name__ == "__main__":
+    #app.run(debug=True)
