@@ -1,8 +1,8 @@
 /* styles.css */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f4f8;
-    color: #333;
+    background-color: #e6e9ef; /* Light gray-blue background */
+    color: #2c3e50; /* Darker blue for text */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,46 +11,60 @@ body {
 }
 
 .container {
-    max-width: 600px;
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    padding: 30px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for a professional look */
+    text-align: center;
+    position: relative; /* Ensures static height */
 }
 
 h1 {
-    text-align: center;
-    color: #007bff;
+    color: #34495e; /* Darker blue for header */
+    font-size: 24px;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 textarea {
     width: 100%;
     height: 100px;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #95a5a6; /* Light blue-gray border */
     border-radius: 5px;
     font-size: 16px;
+    resize: none; /* Prevents text area from resizing */
+    box-sizing: border-box;
 }
 
 button {
     width: 100%;
-    padding: 10px;
-    background-color: #007bff;
+    padding: 12px;
+    background-color: #2980b9; /* Mid blue button */
     border: none;
     border-radius: 5px;
     color: #ffffff;
     font-size: 16px;
+    font-weight: 500;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #1f618d; /* Darker blue on hover */
 }
 
 #result {
     margin-top: 20px;
     font-size: 18px;
-    text-align: center;
+    color: #2980b9;
+}
+
+.container {
+    height: 350px; /* Static height for the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures space distribution */
 }
